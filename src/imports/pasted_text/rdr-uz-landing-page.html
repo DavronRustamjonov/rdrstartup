@@ -1,0 +1,617 @@
+Design a full-page startup landing website for "RDR"
+(Real-time Drowsiness Response) in Uzbek language.
+
+═══════════════════════════════════════════════════════
+NEURAL NETWORK VISUAL SYSTEM — GLOBAL (READ FIRST)
+═══════════════════════════════════════════════════════
+
+This is the most important visual element of the entire design.
+Every single section must have a VISIBLE, LAYERED neural network
+background. This is not a subtle texture — it is a defining
+visual identity of RDR.
+
+NEURAL NETWORK LAYER SPECIFICATIONS:
+
+LAYER 1 — Deep Background Grid:
+  Dots: 3px radius circles
+  Color: #00AAFF at 12% opacity
+  Spacing: 60px x 60px grid
+  Placement: every grid intersection has a node dot
+
+LAYER 2 — Connection Lines:
+  Lines connecting nearby nodes (max distance: 120px)
+  Line width: 1px
+  Color: #00AAFF at 8% opacity
+  Each node connects to 2–4 nearest neighbors
+  Lines form an organic triangulated mesh pattern
+
+LAYER 3 — Active Pulse Nodes (hero and key sections only):
+  Select ~15% of nodes at random positions
+  These nodes: 6px radius, #00AAFF at 35% opacity
+  Add a soft radial glow: blur 12px, #00AAFF 25%
+  These represent "active neurons"
+
+LAYER 4 — Signal Travel Lines (hero section):
+  3–5 animated dashed lines traveling along node paths
+  Dashed: 4px dash, 6px gap
+  Color: #00AAFF, 60% opacity
+  These represent data traveling through the network
+  Direction: random but always flowing top-left to bottom-right
+  or center outward
+
+LAYER 5 — Accent Cluster (behind key UI elements only):
+  Dense node cluster placed behind: hero title, section headings,
+  main stat numbers, CTA buttons
+  Higher density: 30px spacing
+  Nodes: #00AAFF 18% opacity
+  Lines: #00AAFF 12% opacity
+  Creates a "glowing brain activity" effect behind important content
+
+SECTION-SPECIFIC INTENSITY:
+  Section 1 Hero: FULL intensity — all 5 layers active
+  Section 2 Muammo: Layers 1+2+3 active
+  Section 3 Yechim: Layers 1+2+3 active, Layer 5 behind diagram
+  Section 4 Nega Biz: Layers 1+2 active
+  Section 5 Texnologiya: Layers 1+2+3+5 active (dense behind steps)
+  Section 6 Reja: Layers 1+2 active
+  Section 6.5 Demo: Layers 1+2 active
+  Section 7 Jamoa: Layers 1+2 active
+  Section 8 Footer: Layer 1 only (very subtle)
+
+NEURAL NETWORK DECORATIVE ACCENTS:
+  — Top-left corner of every section: partial arc of nodes
+    visible, like a neural cluster peeking from the edge
+  — Between sections (transition zone): node density increases
+    slightly, creating a visual "bridge" between sections
+  — Left edge of page: faint vertical strip of denser nodes
+    running full page height (like a neural spine)
+  — Right edge: mirror of left edge, slightly less dense
+
+COLOR VARIATION across sections (subtle):
+  Hero section nodes: pure #00AAFF
+  Texnologiya section nodes: slight mix of #00AAFF and #0066FF
+  All other sections: #00AAFF standard
+
+═══════════════════════════════════════
+VISUAL STYLE & DESIGN SYSTEM
+═══════════════════════════════════════
+
+Theme: Dark futuristic tech startup with neural AI identity
+Primary background: Deep dark navy #050A18 to #0A0F2E gradient
+Accent color: Electric blue #00AAFF and #0066FF
+Glow effects: Neon blue glowing outlines on all key elements
+Typography: Orbitron Bold for display/logo,
+            Space Grotesk Bold for headings,
+            Inter Regular for body,
+            JetBrains Mono for stats/code
+
+Cards: Dark glassmorphism —
+       background: rgba(255,255,255,0.04)
+       border: 1px solid rgba(0,170,255,0.2)
+       shadow: 0 0 20px rgba(0,170,255,0.15)
+       border-radius: 12px
+       padding: 24px
+
+Color tokens:
+  --bg-primary: #050A18
+  --bg-secondary: #0A0F2E
+  --bg-card: rgba(255,255,255,0.04)
+  --accent-blue: #00AAFF
+  --accent-blue-dark: #0066FF
+  --text-primary: #FFFFFF
+  --text-secondary: #8892B0
+  --border-blue: rgba(0,170,255,0.3)
+  --glow: 0 0 20px rgba(0,170,255,0.4)
+  --gold: #F4B942
+
+Spacing: 8px base grid
+Section vertical padding: 120px top and bottom
+Overall feel: Neural AI research lab meets elite SaaS —
+              dark, intelligent, alive with data
+
+═══════════════════════════════════════
+FIXED NAVIGATION BAR (top, sticky)
+═══════════════════════════════════════
+
+Background: rgba(5,10,24,0.92) with backdrop blur 20px
+Bottom border: 1px solid rgba(0,170,255,0.15)
+Height: 64px
+
+Neural network accent in navbar:
+  Very faint node cluster visible in navbar background
+  5–6 nodes, #00AAFF 6% opacity, no lines
+  Positioned behind the logo area
+
+Left: "RDR" — Orbitron font, blue outlined neon glow
+Center nav links (Inter Medium, 14px, letter-spacing 1px):
+  Asosiy | Muammo | Yechim | Nega Biz |
+  Texnologiya | Reja | Jamoa | Aloqa
+Right:
+  Language switcher: [UZ] [RU] [EN]
+  — pill buttons, active = solid blue
+  CTA: "Demo Ko'rish"
+  — solid #0066FF, white text, blue glow
+
+═══════════════════════════════════════
+SECTION 1 — ASOSIY (Hero)
+═══════════════════════════════════════
+
+Full viewport height 100vh, vertically centered
+Background: #050A18
+
+NEURAL NETWORK in hero (ALL 5 LAYERS — maximum intensity):
+  Full canvas coverage of all node layers
+  Layer 4 signal lines are most visible here
+  Behind the "RDR" title text: Layer 5 dense cluster
+  — nodes packed at 20px spacing, #00AAFF 22% opacity
+  — creates glowing brain halo behind the title
+  Two large "hub nodes" on left and right of title:
+  — 12px radius, #00AAFF 50%, glow blur 24px
+  — 8–10 connection lines radiating from each hub
+  — these are the most prominent nodes on the page
+
+HERO CONTENT (centered, on top of neural layer):
+  Giant outlined wireframe text "RDR":
+    Orbitron, 180px, stroke-only (no fill), 2px stroke
+    Color: #00AAFF, outer glow blur 40px
+    Blueprint/wireframe engineering letter style
+
+  Subtitle 1 (Orbitron, 16px, letter-spacing 6px, #00AAFF):
+    "REAL-TIME DROWSINESS RESPONSE"
+
+  Subtitle 2 (Inter Regular, 18px, #8892B0, max-width 600px):
+    "Haydovchi charchoqligini sun'iy intellekt yordamida
+     real vaqtda aniqlash, ogohlantirish va transport
+     xavfsizligini ta'minlash ekotizimi"
+
+  CTA buttons (gap 16px):
+    "Demo Ko'rish →" — solid #0066FF, white, blue glow
+    "Batafsil o'qish" — transparent, blue border, blue text
+
+  Bottom stat cards row (4 glassmorphism cards):
+    "468" / "Yuz tahlil nuqtasi"
+    "<50ms" / "Signal kechikishi"
+    "24/7" / "Doimiy monitoring"
+    "3-in-1" / "Ovoz · Vibratsiya · Tok"
+
+  Neural detail on stat cards:
+    Behind each card: tiny 3-node cluster, #00AAFF 15%
+    Cards appear to float ON the neural network
+
+═══════════════════════════════════════
+SECTION 2 — MUAMMO
+═══════════════════════════════════════
+
+Background: #050A18 → #0A0F2E gradient
+Neural: Layers 1+2+3 active across full section
+  Extra dense cluster behind the large stat numbers:
+  "1,350,000+" and "$518 Mlrd" — nodes at 25px spacing
+  around the numbers, glow effect, makes numbers look
+  like they're radiating neural energy
+
+Eyebrow: "01 — MUAMMO"
+  (Orbitron, 11px, letter-spacing 4px, #00AAFF)
+H2: "Yo'llarda Har Kuni Sodir Bo'layotgan Fojia"
+  (Space Grotesk Bold, 48px, white)
+Body: "Dunyo bo'ylab millionlab haydovchi uyqu va charchoq
+       tufayli ulkan xavf ostida..."
+  (Inter 16px, #8892B0, max-width 640px)
+
+Layout: 2-column (left 40%, right 60%)
+
+Left column:
+  Stat card 1 (dark, blue left border 3px):
+    "1,350,000+" (Orbitron, 72px, #00AAFF, glow)
+    "Yiliga uyqu tufayli YTH hodisalari"
+    "— WHO va NHTSA ma'lumotlari" (12px, grey)
+
+  Stat card 2 (same style):
+    "$518 Mlrd"
+    "Yillik iqtisodiy zarar (AQSh)"
+
+Right column — 6 problem cards (2x3 grid):
+  Each: glassmorphism, left 2px blue border, icon + text
+  Card 1: 🚗 "Uyqu sababli YTH hodisalari ortib bormoqda"
+  Card 2: ⏱️ "Uzoq vaqt hushyor turmaslik — yashirin xavf"
+  Card 3: 🛣️ "Uzoq masofali qatnovlarda charchoq yo'q"
+  Card 4: 📡 "Real vaqt monitoring tizimlari yetarli emas"
+  Card 5: 💰 "YTH sababli millionlab dollar iqtisodiy zarar"
+  Card 6: 🏭 "Zavod va tungi smena ishchilarida xavf"
+
+  Neural accent on problem cards:
+    Each card has 2–3 tiny node dots visible
+    in the card corner (inside the card, very faint)
+    Like neural activity within each problem
+
+═══════════════════════════════════════
+SECTION 3 — YECHIM
+═══════════════════════════════════════
+
+Background: #0A0F2E
+Neural: Layers 1+2+3+5 active
+  SPECIAL: the ecosystem diagram center has a radial
+  neural burst — nodes radiating outward from phone center
+  like a neural signal explosion:
+  — Center phone: 0px
+  — Ring 1 (40px): 8 nodes, 30% opacity
+  — Ring 2 (80px): 12 nodes, 20% opacity
+  — Ring 3 (140px): 16 nodes, 12% opacity
+  — Ring 4 (200px): 20 nodes, 7% opacity
+  Connection lines between rings: radial spokes + arcs
+
+Eyebrow: "02 — YECHIM"
+H2: "RDR Ekotizimi — To'liq Integrated Yechim"
+Subtext: "Bitta ilova. Bitta braslet. Cheksiz xavfsizlik."
+
+TOP — Ecosystem diagram:
+  Center: phone mockup, dark frame, blue border glow
+  Screen: RDR app with eye camera, EAR meter, status indicator
+
+  4 feature pillars (cross layout around phone):
+    TOP: 🤖 "AI Monitoring" / "468 landmark · EAR · 30–60 FPS"
+    RIGHT: ⌚ "Smart Braslet" / "Vibratsiya · Ovoz · Tok"
+    BOTTOM: 📡 "Wi-Fi Sync" / "ESP32-C3 · Lokal · <50ms"
+    LEFT: 🔒 "Fon Rejimi" / "Background · Always-on"
+
+  Connecting lines: dashed blue with pulse dot
+  These connecting lines should FOLLOW the neural network paths
+  — they trace through node clusters between phone and pillars
+
+BOTTOM — 5 feature cards in a row:
+  (glassmorphism, blue top border 2px)
+
+  Card A: 🔔 "Budilnik Tizimi"
+    "Ma'lum vaqtga RDR budilnik o'rnating.
+     Vaqti kelganda tok, vibratsiya,
+     tovush bilan uyg'otadi."
+
+  Card B: 🆘 "Favqulodda Rejim"
+    "Haydovchi uyonmasa, GPS lokatsiyasi
+     oila yoki xizmatga SMS yuboriladi."
+
+  Card C: 🚗 "Avtomobil Holati Paneli"
+    "Yoqilg'i, harorat, tezlik, GPS —
+     bitta ekranda. Yoqilg'i past bo'lsa
+     yaqin stantsiya tavsiya qilinadi."
+
+  Card D: 🌐 "Ko'p Tilli Interfeys"
+    "O'zbek / Русский / English —
+     3 tilda to'liq interfeys."
+
+  Card E: 📊 "Driver Safety Rating"
+    "AI tahlili asosida har bir haydovchiga
+     xavfsizlik bahosi beriladi."
+
+═══════════════════════════════════════
+SECTION 4 — NEGA BIZ
+═══════════════════════════════════════
+
+Background: #050A18
+Neural: Layers 1+2 active (moderate density)
+  Section heading area: Layer 5 faint cluster behind H2
+
+Eyebrow: "03 — NEGA BIZ"
+H2: "Raqobatchilardan Nima Bilan Farq Qilamiz?"
+Subtext: "Mavjud yechimlar yoki juda qimmat, yoki faqat
+          premium avtomobillarga mo'ljallangan."
+
+Comparison table (dark glass):
+  Header row (rgba(0,102,255,0.15) bg):
+    Kompaniya | Yondashuv | Asosiy Kamchilik | RDR Farqi
+
+  Row 1: Tesla | Cabin monitoring
+         | Faqat Tesla avtolari | ✅ Har qanday avto
+  Row 2: Seeing Machines | AI monitoring
+         | Narxi juda yuqori | ✅ $3–5/oy
+  Row 3: Smart Eye | Kamera tizimi
+         | Mobil versiya yo'q | ✅ Telefon orqali
+  Row 4: Bosch | Avto integratsiya
+         | Ommaviy emas | ✅ Wearable qurilma
+
+  Rows alternate: #050A18 and #0A0F2E
+  RDR column: blue left border, blue checkmark text
+
+  Neural accent on table:
+    Very faint node dots scattered across table rows
+    Like neural data flowing through the comparison
+
+5 advantage badges below table:
+  "📱 Telefon orqali ishlaydi"
+  "💵 Arzon — $3/oy dan"
+  "⌚ Wearable braslet"
+  "🚙 Har qanday avtomobil"
+  "🚗 Avtomobil holati ko'rsatiladi"
+
+═══════════════════════════════════════
+SECTION 5 — TEXNOLOGIYA
+═══════════════════════════════════════
+
+Background: #0A0F2E
+Neural: Layers 1+2+3+5 — HIGH intensity
+  SPECIAL NEURAL TREATMENT for 3-step flow:
+  The connecting arrows between steps ARE the neural network:
+  — Between Step 1→2 and Step 2→3:
+    draw a dense neural path (not just an arrow)
+    5–7 nodes along the path
+    multiple lines connecting them
+    a bright node pulse at midpoint
+    this makes it look like the signal is traveling
+    through neural pathways between steps
+  Behind Step 1 card: dense blue cluster (brain activity)
+  Behind Step 3 card: same dense cluster
+  These represent the "thinking" and "acting" ends
+
+Eyebrow: "04 — TEXNOLOGIYA"
+H2: "Tizim Qanday Ishlaydi?"
+Subtext: "Uch qadam. Soniyalar ichida. Hayot saqlanadi."
+
+3-step horizontal flow:
+
+  STEP 1 — Flutter App (dark card, blue top border 2px)
+    Icon: smartphone with eye
+    Title: "AI Monitoring"
+    List:
+      • 468 ta yuz nuqtasi tahlili
+      • EAR real-time hisoblash
+      • 30–60 FPS kamera tahlili
+      • Fon rejimida ishlash
+      • Avtomobil holati paneli:
+        yoqilg'i · harorat · tezlik · GPS
+
+  [Neural pathway arrow — see above]
+
+  STEP 2 — Communication (dark card, blue top border 2px)
+    Icon: wifi signal
+    Title: "Wi-Fi Trigger"
+    List:
+      • ESP32-C3 Access Point
+      • HTTP so'rov — internet shart emas
+      • <50ms kechikish
+      • Lokal tarmoq, xavfsiz aloqa
+
+  [Neural pathway arrow]
+
+  STEP 3 — RDR Bracelet (dark card, blue top border 2px)
+    Icon: smartwatch + lightning bolt
+    Title: "Hardware Alert"
+    List:
+      • Active Buzzer — ovozli signal
+      • Haptic Motor — kuchli vibratsiya
+      • Step-up elektr impulsi
+      • 3D-printer korpus
+
+Below — 2 wide info cards:
+
+  Card 1: "Avtomobil Holati Paneli" 🚗
+    Text + 4 mini metric widgets: Fuel · Temp · Speed · GPS
+    Neural: faint node cluster behind metrics
+
+  Card 2: "Fleet & Cloud Platform" ☁️
+    B2B dashboard, real-time monitoring, safety rating
+
+═══════════════════════════════════════
+SECTION 6 — REJA
+═══════════════════════════════════════
+
+Background: #050A18
+Neural: Layers 1+2+3 active
+  Dense cluster around "$120,000" total number
+  Moderate density around TAM/SAM/SOM circles
+
+Eyebrow: "05 — REJA"
+H2: "Moliyaviy Reja va Bozor Imkoniyati"
+
+Layout: 2-column (left: market, right: revenue)
+
+LEFT — TAM/SAM/SOM concentric circles:
+  Outer ring (lightest blue):
+    "$8 Milliard" — Global Driver Monitoring Market
+  Middle ring:
+    "$1.5 Milliard" — Mobil monitoring bozori
+  Inner circle (brightest blue):
+    "$50–100M" — Markaziy Osiyo transport
+  Tag pill: "100M+ potensial foydalanuvchi"
+
+  Neural accent on circles:
+    Node dots placed ON the circle rings
+    as if the ring IS a neural pathway
+    8–10 nodes along each circle arc
+    connecting lines between adjacent nodes on ring
+
+RIGHT — Revenue 2x2 card grid:
+  💳 "Subscription — B2C / $3–5 / oy"
+  ⌚ "Bracelet Device / $15–25"
+  🏢 "B2B License / $5–10 / haydovchi / oy"
+  📊 "Data Analytics / Korporativ xizmatlar"
+
+BELOW — Investment bar chart (full width):
+
+  Title: "Kerakli Investitsiya: $120,000"
+  (Space Grotesk Bold, 36px, centered)
+
+  5 horizontal bars:
+
+    AI Model ishlab chiqish ——————————— $35,000
+    ████████████████████████████████████
+
+    Braslet qurilma prototipi ————————— $25,000
+    ████████████████████████████
+
+    Mobil ilova ———————————————————— $20,000
+    ████████████████████████
+
+    Server va Cloud ————————————————— $20,000
+    ████████████████████████
+
+    Marketing ————————————————————— $20,000
+    ████████████████████████
+
+  Bar style:
+    Track: #0A0F2E (dark), height 14px, radius 7px
+    Fill: #0066FF proportional, radius 7px
+    Label: Inter 14px #8892B0 (left)
+    Value: JetBrains Mono 14px #00AAFF (right)
+
+  Total row (full width, bright blue fill):
+    "JAMI ————————————————————— $120,000"
+    White bold text both sides
+
+  Neural on bars: tiny nodes along each bar track
+  — like data points on the bar itself
+  — 4–5 nodes per bar, #00AAFF 20%
+
+═══════════════════════════════════════
+SECTION 6.5 — DEMO
+═══════════════════════════════════════
+
+Background: #0A0F2E
+Neural: Layers 1+2 active
+
+Full-width alert banner:
+  Left border: 4px solid #F4B942 (amber)
+  Background: rgba(244,185,66,0.06)
+  Icon: ⚠️ amber
+  Title (JetBrains Mono, #F4B942): "// Demo haqida eslatma"
+  Text (Inter 14px, #8892B0):
+    "Loyihani qurish boshlanganiga 2 oy bo'ldi.
+     MVP bosqichiga o'tilgan — mobil ilova to'liq ish holatida,
+     dashboard hozirda rivojlantirish jarayonida."
+
+Two video cards side by side (16:9, glassmorphism, blue glow):
+  Left: ▶ "📱 Mobil Ilova Demo"
+        "Real ish jarayoni va foydalanuvchi oqimi"
+  Right: ▶ "🎬 To'liq Tizim Demo"
+         "App + Dashboard — birgalikda ishlashi"
+
+  Neural on video cards:
+    Node cluster visible in top-right corner of each card
+    Semi-transparent overlay, like digital noise
+
+2 outline buttons:
+  "Mobile App UI →" | "Dashboard UI →"
+
+Italic note (12px, #4A5568):
+  "* Tugmalar dastlabki dizayn versiyalariga yo'naltiradi.
+     Amaldagi mahsulot sezilarli darajada rivojlantirilgan."
+
+═══════════════════════════════════════
+SECTION 7 — JAMOA
+═══════════════════════════════════════
+
+Background: #050A18
+Neural: Layers 1+2+3 active
+  SPECIAL: neural connection lines drawn BETWEEN
+  the 4 team cards at the bottom of each card
+  — like a team neural network connecting members
+  — 3 nodes between adjacent cards, connected by lines
+  — represents collaboration and neural teamwork
+
+Eyebrow: "06 — JAMOA"
+H2: "RDR Ortidagi Odamlar"
+Subtext: "TATU — Sun'iy Intellekt Kafedrasi · 261-23 guruh"
+
+4 team cards in a row:
+
+  CARD 1 — Loyiha Sardori:
+    Badge: "LOYIHA SARDORI" — solid #0066FF, white
+    Avatar: 80px circle, blue glow ring
+    Name: "Rustamjonov Davron" (Space Grotesk Bold, 18px)
+    Sub: "Rustamjon o'g'li" (Inter, 13px, grey)
+    Tags: "Sun'iy Intellekt" · "261-23"
+    Divider: 1px rgba(0,170,255,0.2)
+    📧 rustamjonovdavron76@gmail.com
+    📱 +998 91 106 38 98
+    ✈️  @davron_rustamjonov
+
+  CARD 2 — Jamoadosh 1:
+    Badge: "JAMOA A'ZOSI" — dark, blue border
+    Name: "Abdunabiyev Asadbek"
+    Tags: "Komp. Injiniringi" · "261-23"
+    📱 +998 90 005 75 02
+    ✈️  @Asad_707
+
+  CARD 3 — Jamoadosh 2:
+    Badge: "JAMOA A'ZOSI"
+    Name: "Qarshiyev Umarbek"
+    Tags: "Komp. Injiniringi" · "261-23"
+    📱 +998 99 179 67 70
+    ✈️  @umar_karshiev
+
+  CARD 4 — Ilmiy Rahbar:
+    Badge: "ILMIY RAHBAR" — solid #F4B942, dark text
+    Avatar: gold glow ring (not blue)
+    Card border: rgba(244,185,66,0.3)
+    Name: "Qobilov Sirojiddin"
+    Sub: "Sherquljon o'g'li"
+    Tags: "Kafedra Dotsenti" · "Sun'iy Intellekt"
+    Divider: 1px rgba(244,185,66,0.2)
+    📱 +998 90 185 00 24
+    ✈️  @Qobilov_S
+
+═══════════════════════════════════════
+SECTION 8 — ALOQA (Footer)
+═══════════════════════════════════════
+
+Background: #030810 (darkest)
+Top border: 1px solid rgba(0,170,255,0.15)
+Neural: Layer 1 only — very faint, 5% opacity nodes only
+
+3-column layout:
+
+  LEFT:
+    "RDR" — small outlined blue neon
+    "Real-time Drowsiness Response"
+    (Orbitron, 11px, letter-spacing 3px, grey)
+    University badge card:
+      🎓 "Muhammad al-Xorazmiy nomidagi TATU
+          Sun'iy Intellekt Kafedrasi"
+    [✈️ Telegram] [📧 Email] — outline pills
+
+  CENTER:
+    "Bog'laning" (Space Grotesk Bold, 22px)
+    Form inputs (dark bg, blue focus border):
+      "Ismingiz"
+      "Email manzilingiz"
+      "Tashkilot (ixtiyoriy)"
+      "Xabaringiz..." (textarea 4 rows)
+    "Yuborish →" — full width, solid blue, glow
+
+  RIGHT:
+    "Bo'limlar" (Space Grotesk Bold, 16px)
+    Asosiy · Muammo · Yechim
+    Nega Biz · Texnologiya · Reja
+    Jamoa · Aloqa
+    Separator line
+    "Aloqa"
+    📧 rustamjonovdavron76@gmail.com
+    📱 +998 91 106 38 98
+    ✈️  t.me/davron_rustamjonov
+
+  BOTTOM BAR:
+    "© 2024 RDR Project" |
+    "TATU · Sun'iy Intellekt · 261-23" |
+    "Barcha huquqlar himoyalangan"
+    Inter 12px, #4A5568
+
+═══════════════════════════════════════
+PROTOTYPE INTERACTIONS
+═══════════════════════════════════════
+
+Navbar → smooth scroll to sections
+"Demo Ko'rish" → Section 6.5
+"Batafsil o'qish" → Section 2
+
+Hover states:
+  Cards: border glow +4px, scale 1.02, 200ms ease
+  Neural nodes near hovered card: increase opacity +10%
+  Buttons: brightness +10%, glow spreads
+  Nav links: color → #00AAFF, 150ms
+  Video cards: blue overlay + play scale 1.1
+  Team cards: translateY(-4px), glow intensifies
+  Neural connection between team cards on hover:
+    hovering one card makes its connecting line to
+    adjacent card glow brighter
+
+Language switcher [UZ][RU][EN]:
+  Active: solid #0066FF, white text
+  Inactive: transparent, blue border, grey text
